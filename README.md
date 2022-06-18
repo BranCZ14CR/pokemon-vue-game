@@ -1,24 +1,9 @@
-# 04-pokemon-game
+# Pokemon Game VueJS
 
-## Project setup
-```
-npm install
-```
+## URL del proyecto
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+https://pokemon-vue-bcz14cr.netlify.app
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Agradecimientos
 
-### Run your unit tests
-```
-npm run test:unit
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+A Fernando Herrera (https://github.com/Klerith) por su curso de Vue JS de Udemy :)
