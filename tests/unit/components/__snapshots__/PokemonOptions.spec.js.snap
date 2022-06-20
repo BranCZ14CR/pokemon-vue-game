@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pokemon Options component Hacer match con Snapshot 1`] = `
+<div class="">
+  <ul class="col-12 col-sm-12 col-md-10 col-lg-6 col-xl-6 mx-auto mb-5 mt-5">
+    <li class="btn btn-warning">bulbasaur</li>
+    <li class="btn btn-warning">ivysaur</li>
+    <li class="btn btn-warning">venusaur</li>
+    <li class="btn btn-warning">charmander</li>
+  </ul>
+</div>
+`;

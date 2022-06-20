@@ -3,7 +3,7 @@
 import pokemonAPI from "@/api/pokemonApi"
 
 //Funcion para obtener los pokemons
-const getPokemons = () => {
+export const getPokemons = () => {
     //Crear un arreglo vacio
     const pokemonsArr = Array.from(Array(650))
 
@@ -13,7 +13,7 @@ const getPokemons = () => {
 
 
 //Funcion para saber los nombres de los pokemons
-const getPokemonsNames = async ([pokemon1, pokemon2, pokemon3, pokemon4] = []) =>{
+export const getPokemonsNames = async ([pokemon1, pokemon2, pokemon3, pokemon4] = []) =>{
     //Disparar un arreglo de promesas
     const promiseArr = [
         pokemonAPI.get(`/${ pokemon1 }`),
